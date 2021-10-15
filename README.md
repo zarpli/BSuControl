@@ -1,2 +1,2 @@
-# Brightsign
+# BrightSign
 BrightSign Media Players Tools
