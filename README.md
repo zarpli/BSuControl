@@ -1,2 +1,2 @@
 # BrightSign
-BrightSign Media Players Tools
+BrightSign Media Players Tools for Arduino
