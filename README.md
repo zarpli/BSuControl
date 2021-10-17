@@ -5,11 +5,29 @@ BrightSign Media Players Tools for Arduino
 
 This is a script for controlling BS unit through Arduino using a serial port. 
 
-It accepts commands over serial to reboot, play, stop, pause and resume a video.
+This allows you to send a series of commands including play, stop, pause, and resume to control video playback.
 
 The unit automatically responds when a command is received. 
 
 The unit sends a response when a file has finished playing.
+
+# Install
+
+Simply add this script and your content to the flash card and you can send the list of commands below to control playback.
+
+# Commands Supported
+
+This control script supports the following commands. The commands are case sensitive.
+
+Command Syntax: <command><space><argument><CR>
+  
+CR: Carriage Return
+
+e.g.	PLAY VIDEO.MP4 		
+
+# BS Response
+
+<STX><STATUS><ETX>
 
 # Supported devices
 
