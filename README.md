@@ -1,2 +1,2 @@
-# BrightSign uControl
+# BSuControl
 BrightSign Media Players Tools for Arduino
