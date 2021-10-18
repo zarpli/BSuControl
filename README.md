@@ -37,6 +37,7 @@ e.g.	PLAY VIDEO.MP4
 |HD223  |*GPIO connector | 8.3.46 |
 |HD1023 |3.5mm Serial         | 8.3.46 |
 |XD233  |*GPIO connector | 8.3.46 |
+|XT243  |*GPIO connector | 8.3.46 |
   
 * alternate function
 
