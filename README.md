@@ -3,7 +3,7 @@ BrightSign Media Players Tools for Arduino
 
 # Serial Port 
 
-This is a script for controlling BS unit through Arduino using a serial port. 
+This is a script for controlling BS unit through Microcontrollers using a serial port. 
 
 This allows you to send a series of commands including play, stop, pause, and resume to control video playback.
 
