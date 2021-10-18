@@ -17,13 +17,13 @@ The commands are case sensitive.
 The unit automatically responds when a command is received.
 The unit sends a response when a file has finished playing.
 
-|command|argument|response STATUS (hex)|
+|command (chars)|argument|response STATUS (hex)|
 |---|---|---|
 |PLAY|FILE|0 : ERROR <br>1 : OK<BR>8 : MEDIA_ENDED|
 |STOP|None|0 : ERROR <br>1 : OK|
 |PAUSE|None|0 : ERROR <br>1 : OK|
 |RESUME|None|0 : ERROR <br>1 : OK|
-|REEBOT|None|None|
+|REBOOT|None|None|
 
 Command Syntax: \<command>\<space>\<argument>\<cr>
 
