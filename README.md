@@ -17,28 +17,36 @@ Simply add this script and your content to the flash card and you can send the l
 
 # Commands Supported
 
-This control script supports the following commands. The commands are case sensitive.
+This control script supports the following commands. The commands are case sensitive. 
 
-PLAY, stop, pause, and resume to control video playback.
+|command|description|
+|---|---|
+|PLAY||
+|STOP||
+|PAUSE||
+|RESUME||
+|REEBOT||
 
-Command Syntax: <command><space><argument><CR>
-  
-CR: Carriage Return
+Command Syntax: \<command>\<space>\<argument>\<cr>
 
-e.g.	PLAY VIDEO.MP4 		
+The argument is used in uppercase as this is how brightsign handles files internally.
+
+e.g. PLAY VIDEO.MP4		
+
+cr: carriage return
 
 # BS Response
 
-<STX><STATUS><ETX>
+\<STX>\<STATUS>\<ETX>
 
 # Supported devices
 
 |Model  |Physical Serial Port | Firmware|
 |---|---|---|
 |LS423  |USB C to 3.5mm Serial| 8.3.46 |
-|HD223  |*GPIO connector | 8.3.46 |
+|HD223  |GPIO connector AF| 8.3.46 |
 |HD1023 |3.5mm Serial         | 8.3.46 |
-|XD233  |*GPIO connector | 8.3.46 |
-|XT243  |*GPIO connector | 8.3.46 |
+|XD233  |GPIO connector AF| 8.3.46 |
+|XT243  |GPIO connector AF| 8.3.46 |
   
-* alternate function
+AF: alternate function
