@@ -17,13 +17,13 @@ The commands are case sensitive.
 The unit automatically responds when a command is received.
 The unit sends a response when a file has finished playing.
 
-|command|description|response|
+|command|description|response STATUS (hex)|
 |---|---|---|
-|PLAY||
-|STOP||
-|PAUSE||
-|RESUME||
-|REEBOT||
+|PLAY||0 : ERROR <br>1 : OK<BR>8 : MEDIA_ENDED|
+|STOP||0 : ERROR <br>1 : OK|
+|PAUSE||0 : ERROR <br>1 : OK|
+|RESUME||0 : ERROR <br>1 : OK|
+|REEBOT|||
 
 Command Syntax: \<command>\<space>\<argument>\<cr>
 
@@ -36,6 +36,8 @@ cr: carriage return
 
 # BS Response
 
+The response start with STX (02h) followed by the status byte and lastly an ETX (03h). 
+  
 \<STX>\<STATUS>\<ETX>
 
 # Supported devices
