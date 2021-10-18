@@ -7,20 +7,18 @@ Usually in the design of interactive exhibits for museums, only the command is n
 # Loop
 If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
 
-The unit automatically responds when a command is received. 
-
-The unit sends a response when a file has finished playing.
-
 # Install
 
 Simply add this script and your content to the flash card and you can send the list of commands below to control playback.
 
 # Commands Supported
 
-This control script supports the following commands. The commands are case sensitive. 
+The commands are case sensitive. 
+The unit automatically responds when a command is received.
+The unit sends a response when a file has finished playing.
 
-|command|description|
-|---|---|
+|command|description|response|
+|---|---|---|
 |PLAY||
 |STOP||
 |PAUSE||
@@ -30,6 +28,7 @@ This control script supports the following commands. The commands are case sensi
 Command Syntax: \<command>\<space>\<argument>\<cr>
 
 The argument is used in uppercase as this is how brightsign handles files internally.
+
 
 e.g. PLAY VIDEO.MP4		
 
