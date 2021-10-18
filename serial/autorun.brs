@@ -16,7 +16,7 @@ Sub Listen()
 While True
     msg = wait(0,m.msgport)
     if type(msg) = "roVideoEvent" if msg.GetInt() = m.MEDEND m.SendStatus(m.MEDEND)
-	if type(msg) = "roStreamLineEvent" m.ProcessCommand(msg.GetString())
+    if type(msg) = "roStreamLineEvent" m.ProcessCommand(msg.GetString())
 End While
 End Sub
 
