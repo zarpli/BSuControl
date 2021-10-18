@@ -1,7 +1,5 @@
 # BSuControl
-BrightSign Media Players Tools for Arduino
-
-# Serial Port 
+BrightSign Media Players Control Tools
 
 This is a script for controlling BS unit through Microcontrollers using a serial port. 
 
