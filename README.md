@@ -40,7 +40,3 @@ e.g.	PLAY VIDEO.MP4
 |XT243  |*GPIO connector | 8.3.46 |
   
 * alternate function
-
-BrightSign LS424 with USB C to 3.5mm Serial Cable
-
-BrightSign HD1023
