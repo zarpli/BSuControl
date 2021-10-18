@@ -34,8 +34,11 @@ e.g.	PLAY VIDEO.MP4
 |Model  |Physical Serial Port | Firmware|
 |---|---|---|
 |LS423  |USB C to 3.5mm Serial| 8.3.46 |
-|HD223  |GPIO                 | 8.3.46 |
+|HD223  |*GPIO connector | 8.3.46 |
 |HD1023 |3.5mm Serial         | 8.3.46 |
+|XD233  |*GPIO connector | 8.3.46 |
+  
+* alternate function
 
 BrightSign LS424 with USB C to 3.5mm Serial Cable
 
