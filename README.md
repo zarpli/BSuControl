@@ -4,9 +4,6 @@ This script allows you to control the unit efficiently using any controller with
 
 Usually in the design of interactive exhibits for museums, only the command is needed to play video and interrupt it with another video, without the need to use the network interface, GPIO, Timers, or other types of events. That is why this lightweight script was designed.
 
-# Loop
-If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
-
 # Install
 
 Simply add this script and your content to the flash card and you can send the list of commands below to control playback.
@@ -29,7 +26,6 @@ Command Syntax: \<command>\<space>\<argument>\<cr>
 
 The argument is used in uppercase as this is how brightsign handles files internally.
 
-
 e.g. PLAY VIDEO.MP4		
 
 cr: carriage return
@@ -39,6 +35,9 @@ cr: carriage return
 The response start with STX (02h) followed by the status byte and lastly an ETX (03h). 
   
 \<STX>\<STATUS>\<ETX>
+
+# Loop
+If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
 
 # Supported devices
 
