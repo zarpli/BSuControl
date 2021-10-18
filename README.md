@@ -31,7 +31,11 @@ e.g.	PLAY VIDEO.MP4
 
 # Supported devices
 
-BrightSign LS423 with USB C to 3.5mm Serial Cable
+|Model  |Physical Serial Port | Firmware|
+|---|---|---|
+|LS423  |USB C to 3.5mm Serial| 8.3.46 |
+|HD223  |GPIO                 | 8.3.46 |
+|HD1023 |3.5mm Serial         | 8.3.46 |
 
 BrightSign LS424 with USB C to 3.5mm Serial Cable
 
