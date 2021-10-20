@@ -44,9 +44,12 @@ If you need to loop, you can wait for the unit to notify you that the video play
 |Model  |Physical Serial Port | Firmware|
 |---|---|---|
 |LS423  |USB C to 3.5mm Serial| 8.3.46 |
+|LS424* |USB C to 3.5mm Serial| 8.3.46 |
 |HD223  |GPIO connector AF| 8.3.46 |
 |HD1023 |3.5mm Serial         | 8.3.46 |
 |XD233  |GPIO connector AF| 8.3.46 |
 |XT243  |GPIO connector AF| 8.3.46 |
   
 AF: alternate function
+  
+\* LS424 currently has a firmware problem, the unit does not send serial commands. But it does receive correctly. 
