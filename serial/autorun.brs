@@ -8,7 +8,7 @@ Sub Main()
 	settings.videoMode$ = ""		' ex. "1920x1080x60p", set empty to use automode
     	settings.AudioOutput = 4		' 4 : hdmi & analog
 	avc = NewControl(settings)
-	avc.SendStatus(2)				' send Online status
+	avc.SendStatus(2)			' send Online status
 	avc.listen()
 End Sub
 
