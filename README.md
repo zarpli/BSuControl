@@ -55,6 +55,25 @@ The following table illustrates the pinout of the USB 2.0 Type-C host port:
 |A12|GND|Ground return|B1|GND|Ground return|
 
 The serial port supports TTL signaling and is located on the the A2/A3 and B2/B3 pins. It enumerates as port 0.
+  
+# Serial Port in GPIO 
+
+Enables an alternate function on a GPIO button. This method applies to the onboard GPIO connector and is currently supported on the XTx44, XTx43, XDx34, XDx33, HDx24, HDx23, and HO523 models.
+
+The following table outlines the possible alternate setting for each pin:
+
+|GPIO Pin|Button Number|Alternate Function|
+|---|---|---|
+|3|0|"serial1" (Rx)|
+|4|1|"irin1"|
+|5|2|"irout" (HDx23, HO523 only)|
+|6|3|N/A|
+|9|4|"serial0" (Rx - console port)*|
+|10|5|"serial0" (Tx)*|
+|11|6|"serial1" (Tx)|
+|12|7|N/A|
+
+*Models that do not have a 3.5mm serial port (e.g. HD223, XD233) do not support serial port 0.
 
 # Loop
 If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
