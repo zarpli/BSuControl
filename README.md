@@ -1,6 +1,6 @@
 # BSuControl
 
-This script is designed to control brightsign units efficiently using any controller with a serial interface. Usually in the design of interactive exhibits for museums, only the command is needed to play video and interrupt it with another video. That is why this lightweight script was designed.
+This script is designed to control brightsign units efficiently using any controller with a serial interface. Usually in the design of interactive exhibits for museums the most used command is play video and interrupt it with another video, and of course you need to know when the current video ends playing. 
 
 # Install
 
