@@ -1,8 +1,6 @@
 # BSuControl
 
-This script allows you to control the unit efficiently using any controller with a serial interface.
-
-Usually in the design of interactive exhibits for museums, only the command is needed to play video and interrupt it with another video, without the need to use the network interface, GPIO, Timers, or other types of events. That is why this lightweight script was designed.
+This script is designed to control brightsign units efficiently using any controller with a serial interface. Usually in the design of interactive exhibits for museums, only the command is needed to play video and interrupt it with another video. That is why this lightweight script was designed.
 
 # Install
 
@@ -11,8 +9,7 @@ Simply add this script and your content to the flash card and you can send the l
 # Commands Supported
 
 The commands are case sensitive. 
-The unit automatically responds when a command is received.
-The unit sends a response when a file has finished playing.
+The unit automatically responds when a command is received and also responds when a file has finished playing.
 
 |command (chars)|argument|response STATUS (hex)|
 |---|---|---|
