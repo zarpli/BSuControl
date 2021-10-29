@@ -99,6 +99,6 @@ The following list shows the models that have been tested with this script, but 
 |XD233  |GPIO connector AF| 8.3.46 |
 |XT243  |GPIO connector AF| 8.3.46 |
   
-AF: alternate function
+**AF:** Alternate Function
   
 \* LS424 need a power cycle
