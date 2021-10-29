@@ -13,7 +13,7 @@ The unit automatically responds when a command is received.
 
 |command (chars)|argument|response STATUS (hex)|
 |---|---|---|
-|PLAY|FILE|0 : ERROR <br>1 : OK<BR>8 : MEDIA_ENDED|
+|PLAY|FILE|0 : ERROR <br>1 : OK|
 |STOP|None|0 : ERROR <br>1 : OK|
 |PAUSE|None|0 : ERROR <br>1 : OK|
 |RESUME|None|0 : ERROR <br>1 : OK|
@@ -33,7 +33,11 @@ The response start with STX (02h) followed by the status byte and lastly an ETX 
   
 ```<STX><STATUS><ETX>```
   
-Unit responds automatically when a file has finished playing:
+When the unit starts up and has the script installed, the status online (02h) is sent.
+
+```02h 02h 03h```
+  
+Unit responds automatically with MEDIA_ENDED (08h) when a file has finished playing:
   
 ```02h 08h 03h```
   
