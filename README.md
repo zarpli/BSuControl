@@ -13,13 +13,13 @@ The unit automatically responds when a command is received.
 
 |command (chars)|argument|response STATUS (hex)|
 |---|---|---|
-|PLAY|FILE|0 : ERROR <br>1 : OK|
-|STOP|None|0 : ERROR <br>1 : OK|
-|PAUSE|None|0 : ERROR <br>1 : OK|
-|RESUME|None|0 : ERROR <br>1 : OK|
+|PLAY|FILE|0 : Error <br>1 : Ok|
+|STOP|None|0 : Error <br>1 : Ok|
+|PAUSE|None|0 : Error <br>1 : Ok|
+|RESUME|None|0 : Error <br>1 : Ok|
 |REBOOT|None|None|
 
-Command Syntax: \<command>\<space>\<argument>\<cr>
+Command Syntax: ```<command><space><argument><cr>```
 
 The argument is used in uppercase as this is how brightsign handles files internally.
 
