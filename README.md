@@ -37,7 +37,7 @@ When the unit starts up and has the script installed, the status online (02h) is
 
 ```02h 02h 03h```
   
-Unit responds automatically with MEDIA_ENDED (08h) when a file has finished playing:
+Unit responds automatically with **media_ended** (08h) when a file has finished playing:
   
 ```02h 08h 03h```
   
