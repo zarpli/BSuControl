@@ -23,11 +23,12 @@ End Sub
 
 Sub ProcessCommand(command As String)
 m.ParseCommand(command)
-if m.command = "REBOOT" RebootSystem()
+ok = 0
+if m.command = "PLAY" 	ok = m.video.PlayFile(m.command_value)
+if m.command = "STOP" 	ok = m.video.StopClear()
 if m.command = "PAUSE" 	ok = m.video.Pause()
 if m.command = "RESUME" ok = m.video.Resume()
-if m.command = "STOP" 	ok = m.video.StopClear()
-if m.command = "PLAY" 	ok = m.video.PlayFile(m.command_value)
+if m.command = "REBOOT" RebootSystem()
 if ok m.SendStatus(1) else m.SendStatus(0) 
 End Sub
 
