@@ -42,35 +42,35 @@ The following table illustrates the pinout of the USB 2.0 Type-C host port:
 |pin|Signal Name|Description|pin|Signal Name|Description|
 |---|---|---|---|---|---|
 |A1|GND|Ground return|B12|GND|Ground return|
-|A2|TX1+|Serial transmit|B11|||
-|A3|TX1-|Serial receive|B10|||
-|A4|VBUS|Bus power|B9|VBUS|Bus Power|
-|A5|CC1|Configuration channel|B8|||
-|A6|Dp1|Positive half of USB 2.0 differential pair – position 1|B7|Dn2|Negative half of USB 2.0 differential pair – position 2|
-|A7|Dn1|Negative half of USB 2.0 differential pair – position 1|B6|DP2|Positive half of USB 2.0 differential pair – position 2|
+|A2|TX1+|**Serial Transmit**|B11|||
+|A3|TX1-|**Serial Receive**|B10|||
+|A4|VBUS|Bus Power|B9|VBUS|Bus Power|
+|A5|CC1|Configuration Channel|B8|||
+|A6|DP1|Positive Half USB 2.0 Position 1|B7|DN2|Negative Half of USB 2.0 Position 2|
+|A7|DN1|Negative Half USB 2.0 Position 1|B6|DP2|Positive Half of USB 2.0 Position 2|
 |A8|||B5|CC2|Configuration channel|
-|A9|VBUS|Bus power|B4|VBUS|Bus power|
-|A10|||B3|TX2-|Serial receive|
-|A11|||B2|TX2+|Serial transmit|
+|A9|VBUS|Bus Power|B4|VBUS|Bus Power|
+|A10|||B3|TX2-|**Serial Receive**|
+|A11|||B2|TX2+|**Serial Transmit**|
 |A12|GND|Ground return|B1|GND|Ground return|
 
 The serial port supports TTL signaling and is located on the the A2/A3 and B2/B3 pins. It enumerates as port 0.
   
 # Serial Port in GPIO 
 
-Enables an alternate function on a GPIO button. This method applies to the onboard GPIO connector and is currently supported on the XTx44, XTx43, XDx34, XDx33, HDx24, HDx23, and HO523 models.
+On some BrightSign models that have onboard GPIO connector it is possible to use them with an *alternative function*, including a TTL serial port. This method is currently supported on the XTx44, XTx43, XDx34, XDx33, HDx24, HDx23, and HO523 models.
 
 The following table outlines the possible alternate setting for each pin:
 
 |GPIO Pin|Button Number|Alternate Function|
 |---|---|---|
-|3|0|"serial1" (Rx)|
-|4|1|"irin1"|
-|5|2|"irout" (HDx23, HO523 only)|
+|3|0|**serial1 (Rx)**|
+|4|1|irin1|
+|5|2|irout (HDx23, HO523 only)|
 |6|3|N/A|
-|9|4|"serial0" (Rx - console port)*|
-|10|5|"serial0" (Tx)*|
-|11|6|"serial1" (Tx)|
+|9|4|serial0 (Rx - console port)*|
+|10|5|serial0 (Tx)*|
+|11|6|**serial1 (Tx)**|
 |12|7|N/A|
 
 *Models that do not have a 3.5mm serial port (e.g. HD223, XD233) do not support serial port 0.
@@ -80,6 +80,8 @@ If you need to loop, you can wait for the unit to notify you that the video play
 
 # Supported devices
 
+The following list shows the models that have been tested with this script, but it will surely work on another model in the same series as well. 
+  
 |Model  |Physical Serial Port | Firmware|
 |---|---|---|
 |LS423  |USB C to 3.5mm Serial| 8.3.46 |
