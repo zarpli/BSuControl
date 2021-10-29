@@ -9,7 +9,7 @@ Simply add this script and your content to the flash card and you can send the l
 # Commands Supported
 
 The commands are case sensitive. 
-The unit automatically responds when a command is received and also responds when a file has finished playing.
+The unit automatically responds when a command is received.
 
 |command (chars)|argument|response STATUS (hex)|
 |---|---|---|
@@ -23,7 +23,7 @@ Command Syntax: \<command>\<space>\<argument>\<cr>
 
 The argument is used in uppercase as this is how brightsign handles files internally.
 
-e.g. PLAY VIDEO.MP4		
+e.g. ```PLAY VIDEO.MP4```
 
 cr: carriage return
 
@@ -31,7 +31,11 @@ cr: carriage return
 
 The response start with STX (02h) followed by the status byte and lastly an ETX (03h). 
   
-\<STX>\<STATUS>\<ETX>
+```<STX><STATUS><ETX>```
+  
+Unit responds automatically when a file has finished playing:
+  
+```02h 08h 03h```
   
 # USB 2.0 Type-C Serial Port
   
@@ -58,7 +62,7 @@ The serial port supports TTL signaling and is located on the the A2/A3 and B2/B3
   
 # Serial Port in GPIO 
 
-On some BrightSign models that have onboard GPIO connector it is possible to use them with an *alternative function*, including a TTL serial port. This method is currently supported on the XTx44, XTx43, XDx34, XDx33, HDx24, HDx23, and HO523 models.
+On some BrightSign models that have onboard GPIO connector it is possible to use them with an **alternate function**, including a TTL serial port. This method is currently supported on the XTx44, XTx43, XDx34, XDx33, HDx24, HDx23, and HO523 models.
 
 The following table outlines the possible alternate setting for each pin:
 
@@ -87,7 +91,7 @@ The following list shows the models that have been tested with this script, but 
 |LS423  |USB C to 3.5mm Serial| 8.3.46 |
 |LS424* |USB C to 3.5mm Serial| 8.3.46 |
 |HD223  |GPIO connector AF| 8.3.46 |
-|HD1023 |3.5mm Serial         | 8.3.46 |
+|HD1023 |Onboard 3.5mm Serial| 8.3.46 |
 |XD233  |GPIO connector AF| 8.3.46 |
 |XT243  |GPIO connector AF| 8.3.46 |
   
