@@ -33,7 +33,7 @@ The response start with STX (02h) followed by the status byte and lastly an ETX 
   
 ```<STX><STATUS><ETX>```
   
-When the unit starts up and has the script installed, the status online (02h) is sent.
+When the unit starts up and has the script installed, the status **online** (02h) is sent.
 
 ```02h 02h 03h```
   
