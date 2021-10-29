@@ -13,11 +13,11 @@ The unit automatically responds when a command is received.
 
 |command (chars)|argument|response STATUS (hex)|
 |---|---|---|
-|PLAY|FILE|0 : Error <br>1 : Ok|
-|STOP|None|0 : Error <br>1 : Ok|
-|PAUSE|None|0 : Error <br>1 : Ok|
-|RESUME|None|0 : Error <br>1 : Ok|
-|REBOOT|None|None|
+|PLAY|FILE|0 : error <br>1 : ok|
+|STOP|none|0 : error <br>1 : ok|
+|PAUSE|none|0 : error <br>1 : ok|
+|RESUME|none|0 : error <br>1 : ok|
+|REBOOT|none|none|
 
 Command Syntax: ```<command><space><argument><cr>```
 
