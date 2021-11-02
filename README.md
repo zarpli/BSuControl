@@ -1,6 +1,22 @@
 # BSuControl
 
-This script is designed to control brightsign units efficiently using any controller with a serial interface. Usually in the design of interactive exhibits for museums the most used command is play video and interrupt it with another video, and of course it is useful to know when a video finished playing.
+This script is designed to control brightsign units efficiently using any controller with a serial interface.
+
+# Supported devices
+
+The following list shows the models that have been tested with this script, but it will surely work on another model in the same series as well. 
+  
+|Model  |Physical Serial Port | Firmware|
+|---|---|---|
+|LS422 |USB to Serial Adapter| 6.2.147.9|
+|LS423 |USB C Serial Built-in| 8.3.46|
+|LS424 |USB C Serial Built-in| 8.3.46|
+|HD223 |GPIO connector AF| 8.3.46|
+|HD1023|Onboard 3.5mm Serial| 8.3.46|
+|XD233 |GPIO connector AF| 8.3.46 |
+|XT243 |GPIO connector AF| 8.3.46 |
+  
+**AF:** Alternate Function
 
 # Install
 
@@ -83,24 +99,17 @@ The following table outlines the possible alternate setting for each pin:
 
 *Models that do not have a 3.5mm serial port (e.g. HD223, XD233) do not support serial port 0.
 
+# USB to Serial Port Adapter
+
+At the moment on **LS422** units, it is only possible to use serial communication using a USB adapter.
+This script has been tested in conjunction with the following adapters, but it may well work with any other.
+|Brand|
+|---|
+|ATEN USB to RS232 Serial Port|
+|Future Technology Devices International - FTDI|
+
 # Loop
 If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
-
-# Supported devices
-
-The following list shows the models that have been tested with this script, but it will surely work on another model in the same series as well. 
-  
-|Model  |Physical Serial Port | Firmware|
-|---|---|---|
-|LS422 |USB to Serial Adapter| 6.2.147.9|
-|LS423 |USB C Serial Built-in| 8.3.46|
-|LS424 |USB C Serial Built-in| 8.3.46|
-|HD223 |GPIO connector AF| 8.3.46|
-|HD1023|Onboard 3.5mm Serial| 8.3.46|
-|XD233 |GPIO connector AF| 8.3.46 |
-|XT243 |GPIO connector AF| 8.3.46 |
-  
-**AF:** Alternate Function
 
 # Power Cycle
 \* LS424 need a power cycle
