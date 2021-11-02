@@ -61,6 +61,8 @@ if control.registrySection.Exists("type_c_serial") = false control.registrySecti
 
 control.serial = CreateObject("roSerialPort", 0, settings.serialPortSpeed)
 
+if control.serial = Invalid control.serial = CreateObject("roSerialPort", 2, settings.serialPortSpeed)
+
 if control.serial = Invalid then
     control.controlPort = CreateObject("roControlPort", "BrightSign")
     control.controlPort.EnableAlternateFunction(0, "serial1")
