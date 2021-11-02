@@ -92,13 +92,15 @@ The following list shows the models that have been tested with this script, but 
   
 |Model  |Physical Serial Port | Firmware|
 |---|---|---|
-|LS423  |USB C to 3.5mm Serial| 8.3.46 |
-|LS424* |USB C to 3.5mm Serial| 8.3.46 |
-|HD223  |GPIO connector AF| 8.3.46 |
-|HD1023 |Onboard 3.5mm Serial| 8.3.46 |
-|XD233  |GPIO connector AF| 8.3.46 |
-|XT243  |GPIO connector AF| 8.3.46 |
+|LS422 |USB to Serial Adapter| 6.2.147.9|
+|LS423 |USB C Serial Built-in| 8.3.46|
+|LS424 |USB C Serial Built-in| 8.3.46|
+|HD223 |GPIO connector AF| 8.3.46|
+|HD1023|Onboard 3.5mm Serial| 8.3.46|
+|XD233 |GPIO connector AF| 8.3.46 |
+|XT243 |GPIO connector AF| 8.3.46 |
   
 **AF:** Alternate Function
-  
+
+# Power Cycle
 \* LS424 need a power cycle
