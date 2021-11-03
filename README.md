@@ -107,6 +107,7 @@ This script has been tested in conjunction with the following adapters, but it m
 |---|
 |ATEN USB to RS232 Serial Port|
 |Future Technology Devices International - FTDI|
+|Prolific Technology Inc|
 
 # Loop
 If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
