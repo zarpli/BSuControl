@@ -40,7 +40,11 @@ Command Syntax: ```<command><space><argument><cr>```
 
 The argument is used in uppercase as this is how brightsign handles files internally.
 
-e.g. ```PLAY VIDEO.MP4```
+e.g. 
+
+```PLAY VIDEO.MOV```
+
+```PLAY AUDIO.M4A```
 
 cr: carriage return
 
