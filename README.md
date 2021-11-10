@@ -117,6 +117,24 @@ This script has been tested in conjunction with the following adapters, but it m
 |Future Technology Devices International - FTDI|
 |Prolific Technology Inc|
 
+# Signaling Settings
+
+The following are the default serial settings for a BrightSign player. They can be changed in the script.
+|default serial settings|
+|---|
+|Baud rate: 115200|
+|Data: 8 bit|
+|Parity: none|
+|Stop: 1 bit|
+
+The 3.5mm serial port has the following configuration (from the perspective of the player):
+
+|3.5mm serial port|
+|---|
+|Tip|Receive|
+|Ring|Transmit|
+|Sleeve|Ground|
+    
 # Loop
 If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
 
