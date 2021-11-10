@@ -25,6 +25,7 @@ Sub ProcessCommand(command As String)
 m.ParseCommand(command)
 ok = 0
 if m.command = "PLAY" 	ok = m.video.PlayFile(m.command_value)
+if m.command = "VOLUME"	ok = m.video.SetVolume(m.command_value)
 if m.command = "STOP" 	ok = m.video.StopClear()
 if m.command = "PAUSE" 	ok = m.video.Pause()
 if m.command = "RESUME" ok = m.video.Resume()
