@@ -134,6 +134,13 @@ The 3.5mm serial port has the following configuration (from the perspective of t
 |Tip|Receive|
 |Ring|Transmit|
 |Sleeve|Ground|
+
+# Use with Docklight
+
+[Docklight](https://docklight.de/) is a testing, analysis and simulation tool for serial communication protocols.
+Use the following project to use brightsign drives connected to a PC running Windows OS.
+
+[bs_commands.ptp](docklight/bs_commands.ptp)
     
 # Loop
 If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
