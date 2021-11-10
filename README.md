@@ -129,8 +129,8 @@ The following are the default serial settings for a BrightSign player. They can 
 
 The 3.5mm serial port has the following configuration (from the perspective of the player):
 
-|3.5mm serial port|
-|---|
+|Pin|Function|
+|---|---|
 |Tip|Receive|
 |Ring|Transmit|
 |Sleeve|Ground|
