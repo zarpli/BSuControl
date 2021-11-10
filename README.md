@@ -138,7 +138,8 @@ The 3.5mm serial port has the following configuration (from the perspective of t
 # Use with Docklight
 
 [Docklight](https://docklight.de/) is a testing, analysis and simulation tool for serial communication protocols.
-Use the following project to use brightsign drives connected to a PC running Windows OS.
+
+Use the following project to use BrightSign unit connected to a PC running Windows OS.
 
 [bs_commands.ptp](docklight/bs_commands.ptp)
     
