@@ -32,6 +32,7 @@ The unit automatically responds when a command is received.
 |---|---|---|
 |PLAY|FILE|0 : error <br>1 : ok|
 |STOP|none|0 : error <br>1 : ok|
+|VOLUME|% (INT)|0 : error <br>1 : ok|
 |PAUSE|none|0 : error <br>1 : ok|
 |RESUME|none|0 : error <br>1 : ok|
 |REBOOT|none|none|
@@ -42,9 +43,11 @@ The argument is used in uppercase as this is how brightsign handles files intern
 
 e.g. 
 
-```PLAY VIDEO.MOV```
-
-```PLAY AUDIO.M4A```
+|command example|description|
+|---|---|
+|```PLAY VIDEO.MOV```|try to play video file called "video.mov"|
+|```PLAY AUDIO.M4A```|try to play audio file called "audio.m4a"|
+|```VOLUME 50```|set the volume to 50 percent|
 
 cr: carriage return
 
