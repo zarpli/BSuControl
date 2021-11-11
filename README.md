@@ -169,7 +169,7 @@ The following are the default serial settings for a BrightSign player. They can 
 |---|
 |Baud rate: 115200|
 |Data: 8 bit|
-|Parity: none|
+|Parity: None|
 |Stop: 1 bit|
 
 # Use with Docklight
