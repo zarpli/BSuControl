@@ -109,7 +109,7 @@ The following table outlines the possible alternate setting for each pin:
 |11|Button 6|**serial1 (Tx)**|
 |12|Button 7|N/A|
 
-GPIO alternate function serial is always TTL.
+GPIO alternate function serial is **always TTL.**
 
 *Models that do not have a 3.5mm serial port (e.g. HD223, XD233) do not support serial port 0.
 
@@ -128,7 +128,7 @@ The following table illustrates the pinout of the DE9 serial connector.
 
 # 3.5mm Serial Port
 
-The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses TTL levels for communication. There are some models that are compatible with RS-232 voltages, see the following table: 
+The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses **TTL levels** for communication. There are some models that are compatible with RS-232 voltages, see the following table: 
 
 |Series with 3.5mm serial|RS-232 Compatible|
 |---|---|
@@ -140,6 +140,8 @@ The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses TTL le
 |XD3 (Revision G and older)|NO|
 |XT3 (Revision G and older)|NO|
 |HD3|NO|
+|LS424|NO|
+|LS423|NO|
 
 The 3.5mm serial port has the following configuration (from the perspective of the player):
 
@@ -165,7 +167,7 @@ This script has been tested in conjunction with the following adapters, but it m
 # Signaling Settings
 
 The following are the default serial settings for a BrightSign player. They can be changed in the script.
-|default serial settings|
+|Default serial settings|
 |---|
 |Baud rate: 115200|
 |Data: 8 bit|
