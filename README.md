@@ -43,8 +43,6 @@ Command Syntax: ```<command><space><argument><cr>```
 
 The argument is used in uppercase as this is how brightsign handles files internally.
 
-e.g. 
-
 |command example|description|
 |---|---|
 |```PLAY VIDEO.MOV```|try to play video file called "video.mov"|
