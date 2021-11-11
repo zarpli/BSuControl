@@ -88,24 +88,53 @@ The following table illustrates the pinout of the USB 2.0 Type-C host port:
 
 The serial port supports TTL signaling and is located on the the A2/A3 and B2/B3 pins. It enumerates as port 0.
   
-# Serial Port in GPIO 
+# GPIO - Serial Port
 
 On some BrightSign models that have onboard GPIO connector it is possible to use them with an **alternate function**, including a TTL serial port. This method is currently supported on the XTx44, XTx43, XDx34, XDx33, HDx24, HDx23, and HO523 models.
 
 The following table outlines the possible alternate setting for each pin:
 
-|GPIO Pin|Button Number|Alternate Function|
+|GPIO Pin|Native Function|Alternate Function|
 |---|---|---|
-|3|0|**serial1 (Rx)**|
-|4|1|irin1|
-|5|2|irout (HDx23, HO523 only)|
-|6|3|N/A|
-|9|4|serial0 (Rx - console port)*|
-|10|5|serial0 (Tx)*|
-|11|6|**serial1 (Tx)**|
-|12|7|N/A|
+|1|GND|N/A|
+|2|VDD|N/A|
+|3|Button 0|**serial1 (Rx)**|
+|4|Button 1|irin1|
+|5|Button 2|irout (HDx23, HO523 only)|
+|6|Button 3|N/A|
+|9|Button 4|serial0 (Rx - console port)*|
+|10|Button 5|serial0 (Tx)*|
+|11|Button 6|**serial1 (Tx)**|
+|12|Button 7|N/A|
 
 *Models that do not have a 3.5mm serial port (e.g. HD223, XD233) do not support serial port 0.
+
+# DE9 RS-232 Serial
+The RS-232 interface is a male DE9 connector. 
+
+The following table illustrates the pinout of the DE9 serial connector on the HD1022:
+
+|Pin|Description|Pin|Description|
+|---|---|---|---|
+|1|NC|2|Receive data into the device|
+|3|Transmit data out of the device|4|Available 5V @ 500mA|
+|5|Ground|6|NC|
+|7|RTS|8|CTS|
+|9|NC|||
+
+# 3.5mm Serial Port
+
+The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses TTL levels for communication. The receiver will *tolerate* input RS-232 voltages.
+
+The 3.5mm serial port has the following configuration (from the perspective of the player):
+
+|Pin|Function|
+|---|---|
+|Tip|Receive|
+|Ring|Transmit|
+|Sleeve|Ground|
+
+This serial interface supports TX, RX, and ground only
 
 # USB to Serial Port Adapter
 
@@ -126,14 +155,6 @@ The following are the default serial settings for a BrightSign player. They can 
 |Data: 8 bit|
 |Parity: none|
 |Stop: 1 bit|
-
-The 3.5mm serial port has the following configuration (from the perspective of the player):
-
-|Pin|Function|
-|---|---|
-|Tip|Receive|
-|Ring|Transmit|
-|Sleeve|Ground|
 
 # Use with Docklight
 
