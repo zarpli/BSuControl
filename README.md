@@ -6,9 +6,9 @@ This script is designed to control brightsign units efficiently using any contro
 
 The following list shows the models that have been tested with this script, but it will surely work on another model in the same series as well. 
   
-|Model  |Physical Serial Port | Firmware|
+|Model|Physical Serial Port|Firmware|
 |---|---|---|
-|AU320 |Onboard DB9 RS232|6.1.76|
+|AU320 |Onboard DE9 RS-232|6.1.76|
 |LS422 |USB to Serial Adapter|6.2.147.9|
 |LS423 |USB C Serial Built-in|8.3.46|
 |LS424 |USB C Serial Built-in|8.3.46|
@@ -18,6 +18,8 @@ The following list shows the models that have been tested with this script, but 
 |XT243 |GPIO connector AF|8.3.46|
   
 **AF:** Alternate Function
+
+Please check the technical specifications of the serial port, in particular the tolerated voltages.
 
 # Install
 
@@ -107,12 +109,14 @@ The following table outlines the possible alternate setting for each pin:
 |11|Button 6|**serial1 (Tx)**|
 |12|Button 7|N/A|
 
+GPIO alternate function serial is always TTL.
+
 *Models that do not have a 3.5mm serial port (e.g. HD223, XD233) do not support serial port 0.
 
 # DE9 RS-232 Serial
 The RS-232 interface is a male DE9 connector. 
 
-The following table illustrates the pinout of the DE9 serial connector on the HD1022:
+The following table illustrates the pinout of the DE9 serial connector.
 
 |Pin|Description|Pin|Description|
 |---|---|---|---|
@@ -124,7 +128,18 @@ The following table illustrates the pinout of the DE9 serial connector on the HD
 
 # 3.5mm Serial Port
 
-The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses TTL levels for communication. The receiver will *tolerate* input RS-232 voltages.
+The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses TTL levels for communication. There are some models that are compatible with RS-232 voltages, see the following table: 
+
+|Series with 3.5mm serial|RS-232 Compatible|
+|---|---|
+|XT4|YES|
+|XD4|YES|
+|HD4|YES|
+|XD3 (Revision H and newer)|YES|
+|XT3 (Revision H and newer)|YES|
+|XD3 (Revision G and older)|NO|
+|XT3 (Revision G and older)|NO|
+|HD3|NO|
 
 The 3.5mm serial port has the following configuration (from the perspective of the player):
 
@@ -134,7 +149,8 @@ The 3.5mm serial port has the following configuration (from the perspective of t
 |Ring|Transmit|
 |Sleeve|Ground|
 
-This serial interface supports TX, RX, and ground only
+This serial interface supports TX, RX, and ground only.
+
 
 # USB to Serial Port Adapter
 
