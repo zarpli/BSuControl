@@ -111,7 +111,7 @@ GPIO alternate function serial is **always TTL.**
 
 *Models that do not have a 3.5mm serial port (e.g. HD223, XD233) do not support serial port 0.
 
-# DE9 RS-232 Serial
+# DE9 RS-232
 The RS-232 interface is a male DE9 connector. 
 
 The following table illustrates the pinout of the DE9 serial connector.
