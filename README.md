@@ -34,7 +34,7 @@ The unit automatically responds when a command is received.
 |---|---|---|
 |PLAY|FILE|0 : error <br>1 : ok|
 |STOP|none|0 : error <br>1 : ok|
-|VOLUME|% (INT)|0 : error <br>1 : ok|
+|VOLUME|INT (%)|0 : error <br>1 : ok|
 |PAUSE|none|0 : error <br>1 : ok|
 |RESUME|none|0 : error <br>1 : ok|
 |REBOOT|none|none|
