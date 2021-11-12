@@ -1,6 +1,7 @@
-'   BSuControl 1.0
-'   Brightsign Serial Port Control
+'   BSuControl 1.0 - Brightsign Serial Port Control
 '   Zarpli - Tecnología Interactiva
+'   12112021 Alejandro Zárate
+'   https://github.com/zarpli/BSuControl/
 
 Sub Main()
     settings = createobject ("roAssociativeArray")
