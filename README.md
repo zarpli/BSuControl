@@ -41,7 +41,7 @@ The unit automatically responds when a command is received.
 
 Command Syntax: ```<command><space><argument><cr>```
 
-The argument is used in uppercase as this is how brightsign handles files internally.
+The argument is used in **uppercase** as this is how brightsign handles files internally.
 
 |command example|description|
 |---|---|
