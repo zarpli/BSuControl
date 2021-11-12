@@ -177,7 +177,11 @@ The following are the default serial settings for a BrightSign player. They can 
 Use the following project to use BrightSign unit connected to a PC running Windows OS.
 
 [bs_commands.ptp](docklight/bs_commands.ptp)
-    
+
+# Use with Arduino
+
+[BrightSign](https://github.com/zarpli/BrightSign) is a library for Arduino.
+
 # Loop
 If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
 
