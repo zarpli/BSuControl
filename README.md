@@ -1,6 +1,6 @@
 # BSuControl
 
-This script is designed to control brightsign units efficiently using any controller with a serial interface.
+This script is designed to control BrightSign units efficiently using any controller with a serial interface.
 
 # Supported devices
 
@@ -112,9 +112,7 @@ GPIO alternate function serial is **always TTL.**
 *Models that do not have a 3.5mm serial port (e.g. HD223, XD233) do not support serial port 0.
 
 # DE9 RS-232
-The RS-232 interface is a male DE9 connector. 
-
-The following table illustrates the pinout of the DE9 serial connector.
+The RS-232 interface is a male DE9 connector. The following table illustrates the pinout.
 
 |Pin|Description|Pin|Description|
 |---|---|---|---|
