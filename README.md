@@ -6,7 +6,7 @@ This script is designed to control BrightSign units efficiently using any contro
 
 The following list shows the models that have been tested with this script, but it will surely work on another model in the same series as well. 
   
-|Model|Physical Serial Port|Firmware|
+|Model|Serial Port Type|Firmware|
 |---|---|---|
 |AU320 |Onboard DE9 RS-232|6.1.76|
 |LS422 |USB to Serial Adapter|6.2.147.9|
