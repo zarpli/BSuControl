@@ -46,7 +46,7 @@ The argument is used in **uppercase** as this is how brightsign handles files in
 |command example|description|
 |---|---|
 |```PLAY VIDEO.MOV```|Try to play video file called "video.mov" in root directory|
-|```PLAY AUDIO/AUDIO.M4A```|Try to play audio file called "audio.m4a" in AUDIO directory|
+|```PLAY AUDIO/AUDIO.M4A```|Try to play audio file called "audio.m4a" in "audio" directory|
 |```VOLUME 50```|Set the volume to 50 percent|
 
 cr: carriage return
