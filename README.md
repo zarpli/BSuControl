@@ -182,7 +182,7 @@ Use the following project to use BrightSign unit connected to a PC running Windo
 
 [bs_commands.ptp](docklight/bs_commands.ptp)
 
-<img src=/images/docklight.png width="600">
+<img src=/images/docklight.png width="800">
 
 # Use with Arduino
 
