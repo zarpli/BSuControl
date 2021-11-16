@@ -67,7 +67,8 @@ Unit responds automatically with **media_ended** (08h) when a file has finished 
   
 # USB 2.0 Type-C Serial Port
   
-The LS423 and LS424 units has a USB 2.0 Type-C port, this includes a TTL serial port.
+The LS423 and LS424 units has a USB 2.0 Type-C port, this port is configured in *alternate mode* 
+using pins A2/A3 and B2/B3 as a **TTL** serial port. 
 
 The following table illustrates the pinout of the USB 2.0 Type-C host port:
 
@@ -86,7 +87,9 @@ The following table illustrates the pinout of the USB 2.0 Type-C host port:
 |A11|||B2|TX2+|**Serial Transmit**|
 |A12|GND|Ground return|B1|GND|Ground return|
 
-The serial port supports TTL signaling and is located on the the A2/A3 and B2/B3 pins. It enumerates as port 0.
+The serial port is enumerated as port 0.
+
+
   
 # GPIO - Serial Port
 
