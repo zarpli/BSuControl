@@ -87,8 +87,9 @@ The following table illustrates the pinout of the USB 2.0 Type-C host port:
 |A11|||B2|TX2+|**Serial Transmit**|
 |A12|GND|Ground return|B1|GND|Ground return|
 
-The serial port is enumerated as port 0.
+<img src=/images/USB_TYPE-C.png width="800">
 
+The serial port is enumerated as port 0.
 
   
 # GPIO - Serial Port
@@ -181,6 +182,8 @@ Use the following project to use BrightSign unit connected to a PC running Windo
 
 [bs_commands.ptp](docklight/bs_commands.ptp)
 
+<img src=/images/docklight.png width="600">
+
 # Use with Arduino
 
 [BrightSign](https://github.com/zarpli/BrightSign) is a library for Arduino.
@@ -189,4 +192,4 @@ Use the following project to use BrightSign unit connected to a PC running Windo
 If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
 
 # Power Cycle
-\* LS424 need a power cycle
+LS424 need a power cycle
