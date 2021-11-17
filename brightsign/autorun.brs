@@ -62,7 +62,6 @@ control.registrySection = CreateObject("roRegistrySection", "usb")
 if control.registrySection.Exists("type_c_serial") = false control.registrySection.Write("type_c_serial","1")
 
 control.serial = CreateObject("roSerialPort", 0, settings.serialPortSpeed)
-
 if control.serial = Invalid control.serial = CreateObject("roSerialPort", 2, settings.serialPortSpeed)
 
 if control.serial = Invalid then
