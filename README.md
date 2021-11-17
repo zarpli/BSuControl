@@ -128,7 +128,18 @@ The RS-232 interface is a male DE9 connector. The following table illustrates th
 
 # 3.5mm Serial Port
 
-The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses **TTL levels** for communication. There are some models that are compatible with RS-232 voltages, see the following table: 
+The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses **TTL levels** for communication. 
+This serial interface supports TX, RX, and ground only.
+
+The 3.5mm serial port has the following configuration (from the perspective of the player):
+
+|Pin|Function|
+|---|---|
+|Tip|Receive|
+|Ring|Transmit|
+|Sleeve|Ground|
+
+There are some models that are compatible with RS-232 voltages, see the following table: 
 
 |Series with 3.5mm serial|RS-232 Compatible|
 |---|---|
@@ -143,17 +154,6 @@ The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses **TTL 
 |LS424|NO|
 |LS423|NO|
 
-The 3.5mm serial port has the following configuration (from the perspective of the player):
-
-|Pin|Function|
-|---|---|
-|Tip|Receive|
-|Ring|Transmit|
-|Sleeve|Ground|
-
-This serial interface supports TX, RX, and ground only.
-
-
 # USB to Serial Port Adapter
 
 At the moment on **LS422** units, it is only possible to use serial communication using a USB adapter.
@@ -161,7 +161,7 @@ This script has been tested in conjunction with the following adapters, but it m
 |Brand|
 |---|
 |ATEN International CO., LTD|
-|Future Technology Devices International - FTDI|
+|Future Technology Devices International|
 |Prolific Technology Inc|
 
 # Signaling Settings
@@ -182,7 +182,7 @@ Use the following project to use BrightSign unit connected to a PC running Windo
 
 [bs_commands.ptp](docklight/bs_commands.ptp)
 
-<img src=/images/docklight.png width="800">
+<img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/docklight.png width="800">
 
 # Use with Arduino
 
