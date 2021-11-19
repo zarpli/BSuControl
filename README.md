@@ -205,6 +205,10 @@ If you need to loop, you can wait for the unit to notify you that the video play
 # Power Cycle
 LS424 need a power cycle
 
+# Media Files for Testing
+
+[Media](https://github.com/zarpli/Media)
+
 # YouTube
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=v_Xolq-GvfM" target="_blank"><img src="http://img.youtube.com/vi/v_Xolq-GvfM/0.jpg" alt="YouTube" width="400" border="10"/></a>
