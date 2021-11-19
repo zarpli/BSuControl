@@ -45,9 +45,12 @@ The argument is used in **uppercase** as this is how brightsign handles files in
 
 |command example|description|
 |---|---|
-|```PLAY VIDEO.MOV```|Try to play video file called "video.mov" in root directory|
-|```PLAY AUDIO/AUDIO.M4A```|Try to play audio file called "audio.m4a" in "audio" directory|
-|```VOLUME 50```|Set the volume to 50 percent|
+|```PLAY VIDEO.MOV```|Play video file called "video.mov" in root directory|
+|```PLAY AUDIO/AUDIO.M4A```|Play audio file called "audio.m4a" in "audio" directory|
+|```VOLUME 50```|Set the volume to 50 percent of normal|
+|```STOP```|Stop the currently playing media and clears the screen|
+
+When media file is a video, the PLAY command stops on the last frame.
 
 cr: carriage return
 
