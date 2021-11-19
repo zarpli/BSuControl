@@ -67,7 +67,15 @@ When the unit starts up and has the script installed, the status **online** (02h
 Unit responds automatically with **media_ended** (08h) when a file has finished playing:
   
 ```02h 08h 03h```
-  
+
+When the last command was not executed correctly, the unit responds:
+
+```02h 00h 03h```
+
+When the last command was successful, the unit responds:
+
+```02h 01h 03h```
+
 # USB 2.0 Type-C Serial Port
   
 The LS423 and LS424 units has a USB 2.0 Type-C port, this port is configured in *alternate mode* 
