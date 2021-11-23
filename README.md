@@ -199,9 +199,6 @@ Use the following project to use BrightSign unit connected to a PC running Windo
 
 [BrightSign](https://github.com/zarpli/BrightSign) is a library for Arduino.
 
-# Loop
-If you need to loop, you can wait for the unit to notify you that the video playback is finished (MEDIA_ENDED) and instruct you to play again. Although for this you don't need a microcontroller and it is preferable to do the script with BrightAuthor. 
-
 # Power Cycle
 LS424 need a power cycle
 
