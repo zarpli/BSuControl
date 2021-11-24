@@ -157,6 +157,8 @@ The 3.5mm serial port has the following configuration (from the perspective of t
 |Ring|Transmit|
 |Sleeve|Ground|
 
+<img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/TRS_Jack.jpg width="300">
+
 There are some models that are compatible with RS-232 voltages, see the following table: 
 
 |Series with 3.5mm serial|RS-232 Compatible|
