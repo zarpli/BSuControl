@@ -196,7 +196,7 @@ The following are the default serial settings for a BrightSign player. They can 
 
 The following diagram illustrates the behavior of the TX and RX signal:
 
-<img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/bit_diagram.png>
+<img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/bit_diagram.png width="500">
 
 # Use with Docklight
 
