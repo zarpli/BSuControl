@@ -137,6 +137,10 @@ The RS-232 interface is a male DE9 connector. The following table illustrates th
 |7|RTS|8|CTS|
 |9|NC|||
 
+Here is the DA15 male as viewed from the front of the BrightSign units.
+
+<img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/DA-15_male.png width="300">
+
 # 3.5mm Serial Port
 
 The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses **TTL levels** for communication. 
