@@ -194,6 +194,10 @@ The following are the default serial settings for a BrightSign player. They can 
 |Parity: None|
 |Stop: 1 bit|
 
+The following diagram illustrates the behavior of the TX and RX signal:
+
+<img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/bit_diagram.png>
+
 # Use with Docklight
 
 [Docklight](https://docklight.de/) is a testing, analysis and simulation tool for serial communication protocols.
