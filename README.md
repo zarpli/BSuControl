@@ -101,7 +101,6 @@ The following table illustrates the pinout of the USB 2.0 Type-C host port:
 <img src=/images/USB_TYPE-C.png width="800">
 
 The serial port is enumerated as port 0.
-
   
 # GPIO - Serial Port
 
@@ -123,6 +122,10 @@ The following table outlines the possible alternate setting for each pin:
 |12|Button 7|N/A|
 
 GPIO alternate function serial is **always TTL.**
+
+The GPIO port is a standard design manufactured by Phoenix Contact, Wurth Electronics, and others
+
+<img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/Phoenix_12.png width="300">
 
 *Models that do not have a 3.5mm serial port (e.g. HD223, XD233) do not support serial port 0.
 
