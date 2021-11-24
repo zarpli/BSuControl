@@ -123,7 +123,7 @@ The following table outlines the possible alternate setting for each pin:
 
 GPIO alternate function serial is **always TTL.**
 
-The GPIO port is a standard design manufactured by Phoenix Contact, Wurth Electronics, and others
+The GPIO port is a Terminal Block 12 Pin male standard design manufactured by Phoenix Contact.
 
 <img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/Phoenix_12.png width="300">
 
