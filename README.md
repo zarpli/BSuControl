@@ -39,7 +39,7 @@ The unit automatically responds when a command is received.
 |RESUME|none|0 : error <br>1 : ok|
 |REBOOT|none|none|
 
-Command Syntax: ```<command><space><argument><cr>```
+Command Syntax: ```<command><argument><cr>```
 
 The argument is used in **uppercase** as this is how brightsign handles files internally.
 
