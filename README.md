@@ -204,7 +204,7 @@ The following diagram illustrates the behavior of the TX and RX signal:
 
 Use the following project to use BrightSign unit connected to a PC running Windows OS.
 
-[bs_commands.ptp](docklight/BS_uControl.ptp)
+[BSuControl.ptp](docklight/BSuControl.ptp)
 
 <img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/docklight.png width="800">
 
