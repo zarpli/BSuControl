@@ -23,7 +23,7 @@ Please check the technical specifications of the serial port, in particular the 
 
 # Install
 
-Simply add this script and your content to the flash card and you can send the list of commands below to control playback.
+Simply add this [script](brightsign/autorun.brs) and your content to the flash card and you can send the list of commands below to control playback.
 
 # Commands Supported
 
