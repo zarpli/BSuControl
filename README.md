@@ -142,7 +142,7 @@ The RS-232 interface is a male DE-09 connector. The following table illustrates 
 
 Here is the DE-09 male as viewed from the front of the BrightSign units.
 
-<img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/DE-09.png width="300">
+<img src=https://raw.githubusercontent.com/zarpli/BSuControl/main/images/DE-09-M.png width="300">
 
 # 3.5mm Serial Port
 
