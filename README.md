@@ -86,16 +86,16 @@ The following table illustrates the pinout of the USB 2.0 Type-C host port:
 |pin|Signal Name|Description|pin|Signal Name|Description|
 |---|---|---|---|---|---|
 |A1|GND|Ground return|B12|GND|Ground return|
-|A2|TX1+|**Serial Transmit**|B11|||
-|A3|TX1-|**Serial Receive**|B10|||
+|**A2|TX1+|Serial Transmit**|B11|||
+|**A3|TX1-|Serial Receive**|B10|||
 |A4|VBUS|Bus Power|B9|VBUS|Bus Power|
 |A5|CC1|Configuration Channel|B8|||
 |A6|DP1|Positive Half USB 2.0 Position 1|B7|DN2|Negative Half of USB 2.0 Position 2|
 |A7|DN1|Negative Half USB 2.0 Position 1|B6|DP2|Positive Half of USB 2.0 Position 2|
 |A8|||B5|CC2|Configuration channel|
 |A9|VBUS|Bus Power|B4|VBUS|Bus Power|
-|A10|||B3|TX2-|**Serial Receive**|
-|A11|||B2|TX2+|**Serial Transmit**|
+|A10|||**B3|TX2-|Serial Receive**|
+|A11|||**B2|TX2+|Serial Transmit**|
 |A12|GND|Ground return|B1|GND|Ground return|
 
 <img src=/images/USB_TYPE-C.png width="800">
@@ -112,13 +112,13 @@ The following table outlines the possible alternate setting for each pin:
 |---|---|---|
 |1|GND|N/A|
 |2|VDD|N/A|
-|3|Button 0|**serial1 (Rx)**|
+|**3|Button 0|serial1 (Rx)**|
 |4|Button 1|irin1|
 |5|Button 2|irout (HDx23, HO523 only)|
 |6|Button 3|N/A|
 |9|Button 4|serial0 (Rx - console port)*|
 |10|Button 5|serial0 (Tx)*|
-|11|Button 6|**serial1 (Tx)**|
+|**11|Button 6|serial1 (Tx)**|
 |12|Button 7|N/A|
 
 GPIO alternate function serial is **always TTL.**
