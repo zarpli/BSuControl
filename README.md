@@ -180,7 +180,7 @@ At the moment on **LS422** units, it is only possible to use serial communicatio
 This script has been tested in conjunction with the following adapters, but it may well work with any other.
 |Brand|
 |---|
-|ATEN International CO., LTD|
+|WCH - CH340|
 |Future Technology Devices International|
 |Prolific Technology Inc|
 
