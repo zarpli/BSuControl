@@ -8,7 +8,7 @@ The following list shows the models that have been tested with this script, but 
   
 |Model|Serial Port Type|Firmware|
 |---|---|---|
-|AU320 |Onboard DE9 RS-232|6.1.76|
+|AU320 |Onboard DE-09 RS-232|6.1.76|
 |LS422 |USB to Serial Adapter|6.2.147.9|
 |LS423 |USB C Serial Built-in|8.3.46|
 |LS424 |USB C Serial Built-in|8.3.46|
