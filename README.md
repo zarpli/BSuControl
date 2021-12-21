@@ -11,7 +11,7 @@ The following list shows the models that have been tested with this script, but 
 |AU320 |Onboard DE-09 RS-232|6.1.76|
 |LS422 |USB to Serial Adapter|6.2.147.9|
 |LS423 |USB C Serial Built-in|8.4.10|
-|LS424 |USB C Serial Built-in|8.3.46|
+|LS424 |USB C Serial Built-in|8.4.10|
 |HD223 |GPIO connector AF|8.3.46|
 |HD1023|Onboard 3.5mm Serial|8.3.46|
 |XD233 |GPIO connector AF|8.3.46|
