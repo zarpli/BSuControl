@@ -90,8 +90,8 @@ The following table illustrates the pinout of the USB 2.0 Type-C host port:
 |**A3**|**TX1-**|**Serial Receive**|B10|||
 |A4|VBUS|Bus Power|B9|VBUS|Bus Power|
 |A5|CC1|Configuration Channel|B8|||
-|A6|D+ 1|Positive Half USB 2.0 Position 1|B7|D- 2|Negative Half of USB 2.0 Position 2|
-|A7|D- 1|Negative Half USB 2.0 Position 1|B6|D+ 2|Positive Half of USB 2.0 Position 2|
+|A6|DP1|Positive Half USB 2.0 Position 1|B7|DN2|Negative Half of USB 2.0 Position 2|
+|A7|DN1|Negative Half USB 2.0 Position 1|B6|DP2|Positive Half of USB 2.0 Position 2|
 |A8|||B5|CC2|Configuration channel|
 |A9|VBUS|Bus Power|B4|VBUS|Bus Power|
 |A10|||**B3**|**TX2-**|**Serial Receive**|
