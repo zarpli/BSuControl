@@ -101,6 +101,10 @@ The following table illustrates the pinout of the USB 2.0 Type-C host port:
 <img src=/images/USB_TYPE-C.png width="800">
 
 The serial port is enumerated as port 0.
+
+The USB connector can supply up to 500mA of power for peripherals.  The maximum length for a USB cable is 5 meters.
+
+The USB Type-C port will output analog audio if the CC1 or CC2 signal is shorted to ground via a 1K resistor. Analog output can also be enabled in system software. The Dp signal outputs right audio, and the Dn signal outpts left audio.
   
 # GPIO - Serial Port
 
