@@ -50,7 +50,7 @@ The path and filename is used in **uppercase** as this is how brightsign handles
 |```PLAY AUDIO/AUDIO.M4A```|Play audio file called "audio.m4a" in "audio" directory|
 |```VOLUME 50```|Set the volume to 50 percent of normal|
 |```STOP```|Stop the currently playing media and clears the screen|
-|```LOOP true```|A single media file will loop seamlessly if possible. If the video file cannot be looped seamlessly, then the video will loop with seams. |
+|```LOOP true```|Enable loop mode seamlessly if possible. If the video file cannot be looped seamlessly, then the video will loop with seams.|
 
 **NOTES:**
 
