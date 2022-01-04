@@ -37,7 +37,7 @@ The unit automatically responds when a command is received.
 |VOLUME|INT (%)|0 : error <br>1 : ok|
 |PAUSE|none|0 : error <br>1 : ok|
 |RESUME|none|0 : error <br>1 : ok|
-|LOOP|true or false|0 : error <br>1 : ok|
+|LOOP|AlwaysLoop|0 : error <br>1 : ok|
 |REBOOT|none|none|
 
 Command Syntax: ```<command><argument><cr>```
@@ -50,7 +50,7 @@ The path and filename is used in **uppercase** as this is how brightsign handles
 |```PLAY AUDIO/AUDIO.M4A```|Play audio file called "audio.m4a" in "audio" directory|
 |```VOLUME 50```|Set the volume to 50 percent of normal|
 |```STOP```|Stop the currently playing media and clears the screen|
-|```LOOP true```|Enable loop mode seamlessly if possible. If the video file cannot be looped seamlessly, then the video will loop with seams.|
+|```LOOP AlwaysLoop```|Enable loop mode seamlessly if possible. If the video file cannot be looped seamlessly, then the video will loop with seams.|
 
 **NOTES:**
 
