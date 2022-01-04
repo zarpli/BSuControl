@@ -37,11 +37,12 @@ The unit automatically responds when a command is received.
 |VOLUME|INT (%)|0 : error <br>1 : ok|
 |PAUSE|none|0 : error <br>1 : ok|
 |RESUME|none|0 : error <br>1 : ok|
+|LOOP|true or false|0 : error <br>1 : ok|
 |REBOOT|none|none|
 
 Command Syntax: ```<command><argument><cr>```
 
-The argument is used in **uppercase** as this is how brightsign handles files internally.
+The path and filename is used in **uppercase** as this is how brightsign handles files internally.
 
 |command example|description|
 |---|---|
@@ -49,10 +50,13 @@ The argument is used in **uppercase** as this is how brightsign handles files in
 |```PLAY AUDIO/AUDIO.M4A```|Play audio file called "audio.m4a" in "audio" directory|
 |```VOLUME 50```|Set the volume to 50 percent of normal|
 |```STOP```|Stop the currently playing media and clears the screen|
+|```LOOP true```|A single media file will loop seamlessly if possible. If the video file cannot be looped seamlessly, then the video will loop with seams. |
 
-When media file is a video, the PLAY command stops on the last frame.
+**NOTES:**
 
-cr: carriage return
+1. When media file is a video, the PLAY command stops on the last frame.
+2. Media End event are only sent if seamless looping is disabled.
+3. cr: carriage return
 
 # BS Response
 
