@@ -30,14 +30,14 @@ Simply add this [script](brightsign/autorun.brs) and your content to the flash c
 The commands are case sensitive. 
 The unit automatically responds when a command is received.
 
-|command (chars)|argument|response STATUS (hex)|
+|command (chars)|argument type|response STATUS (hex)|
 |---|---|---|
-|PLAY|FILE|0 : error <br>1 : ok|
+|PLAY|File Path|0 : error <br>1 : ok|
 |STOP|none|0 : error <br>1 : ok|
 |VOLUME|INT (%)|0 : error <br>1 : ok|
 |PAUSE|none|0 : error <br>1 : ok|
 |RESUME|none|0 : error <br>1 : ok|
-|LOOP|AlwaysLoop|0 : error <br>1 : ok|
+|LOOP|String|0 : error <br>1 : ok|
 |REBOOT|none|none|
 
 Command Syntax: ```<command><argument><cr>```
@@ -50,13 +50,21 @@ The path and filename is used in **uppercase** as this is how brightsign handles
 |```PLAY AUDIO/AUDIO.M4A```|Play audio file called "audio.m4a" in "audio" directory|
 |```VOLUME 50```|Set the volume to 50 percent of normal|
 |```STOP```|Stop the currently playing media and clears the screen|
-|```LOOP AlwaysLoop```|Enable loop mode seamlessly if possible. If the video file cannot be looped seamlessly, then the video will loop with seams.|
+|```LOOP AlwaysLoop```|Enable automatic loop mode| 
+
+The below table Specifies the looping modes for media playback. Media End events are *only sent if seamless looping is disabled*, or if the mode is set to "SeamlessLoopOrNotAtAll" and the file cannot be looped seamlessly.
+
+|LOOP argument|description|
+|---|---|
+|NoLoop|Looping is disabled in all cases. This is the default behavior, allowing for playback of multiple files in a playlist—with noticeable gaps between the end and beginning of the file.|
+|AlwaysLoop|The video is looped seamlessly if possible; otherwise, it is looped with seams.|
+|SeamlessLoopOrNotAtAll|The video is looped seamlessly if possible; otherwise, it is not looped at all.|
+|LoopButNotSeamless|The video is looped with seams.|
 
 **NOTES:**
 
 1. When media file is a video, the PLAY command stops on the last frame.
-2. Media End event are only sent if seamless looping is disabled.
-3. cr: carriage return
+2. cr is carriage return
 
 # BS Response
 
