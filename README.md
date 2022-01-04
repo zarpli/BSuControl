@@ -81,21 +81,21 @@ When the last command was successful, the unit responds:
 The LS423 and LS424 units has a USB 2.0 Type-C port, this port is configured in *alternate mode* 
 using pins A2/A3 and B2/B3 as a **TTL** serial port. 
 
-The following table illustrates the pinout of the USB 2.0 Type-C host port:
+The following table illustrates the pinout of the USB 2.0 Type-C **host** port:
 
 |pin|Signal Name|Description|pin|Signal Name|Description|
 |---|---|---|---|---|---|
 |A1|GND|Ground return|B12|GND|Ground return|
-|A2|||**B11**|**RX1+**|**Serial Transmit**|
-|A3|||**B10**|**RX1-**|**Serial Receive**|
+|**A2**|**TX1+**|**Serial Transmit**|B11|||
+|**A3**|**TX1-**|**Serial Receive**|B10|||
 |A4|VBUS|Bus Power|B9|VBUS|Bus Power|
 |A5|CC1|Configuration Channel|B8|||
 |A6|DP1|Positive Half USB 2.0 Position 1|B7|DN2|Negative Half of USB 2.0 Position 2|
 |A7|DN1|Negative Half USB 2.0 Position 1|B6|DP2|Positive Half of USB 2.0 Position 2|
 |A8|||B5|CC2|Configuration channel|
 |A9|VBUS|Bus Power|B4|VBUS|Bus Power|
-|**A10**|**RX2-**|**Serial Receive**|B3|||
-|**A11**|**RX2+**|**Serial Transmit**|B2|||
+|A10|||**B3**|**TX2-**|**Serial Receive**|
+|A11|||**B2**|**TX2+**|**Serial Transmit**|
 |A12|GND|Ground return|B1|GND|Ground return|
 
 <img src=/images/USB_TYPE-C.png width="800">
@@ -104,7 +104,7 @@ The serial port is enumerated as port 0.
 
 The USB connector can supply up to 500mA of power for peripherals.  The maximum length for a USB cable is 5 meters.
 
-The USB Type-C port will output analog audio if the CC1 or CC2 signal is shorted to ground via a 1K resistor. Analog output can also be enabled in system software. The D+ signal outputs right audio, and the D- signal outpts left audio.
+The USB Type-C port will output **analog audio** if the CC1 or CC2 signal is shorted to ground via a 1K resistor. Analog output can also be enabled in system software. The D+ signal outputs right audio, and the D- signal outpts left audio.
   
 # GPIO - Serial Port
 
