@@ -16,6 +16,7 @@ The following list shows the models that have been tested with this script, but 
 |HD1023|Onboard 3.5mm Serial|8.4.10|
 |XD233 |GPIO connector AF|8.4.10|
 |XT243 |GPIO connector AF|8.4.10|
+|XT1143|Onboard 3.5mm Serial|8.4.10|
   
 **AF:** Alternate Function
 
