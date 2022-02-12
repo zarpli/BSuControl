@@ -6,19 +6,19 @@ This script is designed to control BrightSign units efficiently using any contro
 
 The following list shows the models that have been tested with this script, but it will surely work on another model in the same series as well. 
   
-|Model|Serial Port Type|Firmware|
-|---|---|---|
-|AU320 |Onboard DE-09 RS-232|6.1.76|
-|LS422 |USB to Serial Adapter|6.2.147.9|
-|LS423 |USB C Serial Built-in|8.4.10|
-|LS424 |USB C Serial Built-in|8.4.10|
-|HD223 |GPIO connector AF|8.4.10|
-|HD1023|Onboard 3.5mm Serial|8.4.10|
-|HD1033|Onboard 3.5mm Serial|8.4.10|
-|HD1024|Onboard 3.5mm Serial|8.4.10|
-|XD233 |GPIO connector AF|8.4.10|
-|XT243 |GPIO connector AF|8.4.10|
-|XT1143|Onboard 3.5mm Serial|8.4.10|
+|Model|Serial Port Type|Hardware Level|Firmware|
+|---|---|---|---|
+|AU320 |Onboard DE-09 RS-232|RS-232|6.1.76|
+|LS422 |USB to Serial Adapter|TTL|6.2.147.9|
+|LS423 |USB C Serial Built-in|TTL|8.4.10|
+|LS424 |USB C Serial Built-in|TTL|8.4.10|
+|HD223 |GPIO connector AF|TTL|8.4.10|
+|HD1023|Onboard 3.5mm Serial|TTL|8.4.10|
+|HD1033|Onboard 3.5mm Serial|TTL|8.4.10|
+|HD1024|Onboard 3.5mm Serial|RS-232|8.4.10|
+|XD233 |GPIO connector AF|TTL|8.4.10|
+|XT243 |GPIO connector AF|TTL|8.4.10|
+|XT1143|Onboard 3.5mm Serial|TTL|8.4.10|
   
 **AF:** Alternate Function
 
@@ -165,7 +165,7 @@ Here is the DE-09 male as viewed from the front of the BrightSign units.
 
 # 3.5mm Serial Port
 
-The UART (asynchronous serial) interface is a 3.5mm (1/8") jack that uses **TTL levels** for communication. 
+The UART (asynchronous serial) interface is a 3.5mm (1/8") jack for communication.
 This serial interface supports TX, RX, and ground only.
 
 The 3.5mm serial port has the following configuration (from the perspective of the player):
