@@ -16,6 +16,7 @@ The following list shows the models that have been tested with this script, but 
 |HD1023|Onboard 3.5mm Serial|TTL|8.4.14|
 |HD1033|Onboard 3.5mm Serial|TTL|8.4.14|
 |HD1024|Onboard 3.5mm Serial|RS-232|8.4.14|
+|HD1034|Onboard 3.5mm Serial|RS-232|8.4.14|
 |XD233 |GPIO connector AF|TTL|8.4.14|
 |XT243 |GPIO connector AF|TTL|8.4.14|
 |XT1143|Onboard 3.5mm Serial|TTL|8.4.14|
