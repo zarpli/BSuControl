@@ -9,7 +9,7 @@ The following list shows the models that have been tested with this script, but 
 |Model|Serial Port Type|Hardware Level|Firmware|
 |---|---|---|---|
 |AU320 |Onboard DE-09|RS-232|6.1.76|
-|LS422 |USB to Serial Adapter|TTL|6.2.147.9|
+|LS422 |USB to Serial Adapter|TTL/RS-232|6.2.147.9|
 |LS423 |USB C Serial Built-in|TTL|8.4.14|
 |LS424 |USB C Serial Built-in|TTL|8.4.14|
 |HD223 |GPIO connector AF|TTL|8.4.14|
