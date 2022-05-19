@@ -1,6 +1,6 @@
 # BSuControl
 
-This script is designed to control BrightSign units efficiently using any controller with a serial interface.
+This script is designed to control BrightSign units efficiently using any controller with a serial interface, included [arduino](#Use-with-Arduino).
 
 # Supported devices
 
