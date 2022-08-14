@@ -13,6 +13,7 @@ The following list shows the models that have been tested with this script, but 
 |LS423 |USB C Serial Built-in|TTL|8.4.14|
 |LS424 |USB C Serial Built-in|TTL|8.4.14|
 |HD223 |GPIO connector AF|TTL|8.4.14|
+|HD224 |GPIO connector AF|TTL|8.4.14|
 |HD1023|Onboard 3.5mm Serial|TTL|8.4.14|
 |HD1033|Onboard 3.5mm Serial|TTL|8.4.14|
 |HD1024|Onboard 3.5mm Serial|RS-232|8.4.14|
