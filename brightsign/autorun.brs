@@ -25,13 +25,14 @@ End Sub
 Sub ProcessCommand(command As String)
 m.ParseCommand(command)
 ok = 0
-if m.command = "LOOP"   ok = m.video.SetLoopMode(m.command_value)
-if m.command = "PLAY" 	ok = m.video.PlayFile(m.command_value)
-if m.command = "VOLUME"	ok = m.video.SetVolume(m.command_value)
-if m.command = "STOP" 	ok = m.video.StopClear()
-if m.command = "PAUSE" 	ok = m.video.Pause()
-if m.command = "RESUME" ok = m.video.Resume()
-if m.command = "REBOOT" RebootSystem()
+if m.command = "LOOP"       ok = m.video.SetLoopMode(m.command_value)
+if m.command = "PLAY" 	    ok = m.video.PlayFile(m.command_value)
+if m.command = "DISPLAY"    ok = m.video.DisplayFile(m.command_value)
+if m.command = "VOLUME"	    ok = m.video.SetVolume(m.command_value)
+if m.command = "STOP" 	    ok = m.video.StopClear()
+if m.command = "PAUSE" 	    ok = m.video.Pause()
+if m.command = "RESUME"     ok = m.video.Resume()
+if m.command = "REBOOT"     RebootSystem()
 if ok m.SendStatus(1) else m.SendStatus(0) 
 End Sub
 
