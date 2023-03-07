@@ -27,7 +27,7 @@ m.ParseCommand(command)
 ok = 0
 if m.command = "LOOP"       ok = m.video.SetLoopMode(m.command_value)
 if m.command = "PLAY" 	    ok = m.video.PlayFile(m.command_value)
-if m.command = "DISPLAY"    ok = m.video.DisplayFile(m.command_value)
+'if m.command = "DISPLAY"    ok = m.video.DisplayFile(m.command_value)
 if m.command = "VOLUME"	    ok = m.video.SetVolume(m.command_value)
 if m.command = "STOP" 	    ok = m.video.StopClear()
 if m.command = "PAUSE" 	    ok = m.video.Pause()
