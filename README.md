@@ -54,7 +54,7 @@ The path and filename is used in **uppercase** as this is how brightsign handles
 |---|---|
 |```PLAY VIDEO.MOV```|Play video file called "video.mov" in root directory|
 |```PLAY AUDIO/AUDIO.M4A```|Play audio file called "audio.m4a" in "audio" directory|
-|```STATIC IMG/TEST.PNG```|Uses the video decoder to display image file called "test.png" in "img" directory|
+|```DISPLAY IMG/TEST.PNG```|Uses the video decoder to display image file called "test.png" in "img" directory|
 |```VOLUME 50```|Set the volume to 50 percent of normal|
 |```STOP```|Stop the currently playing media and clears the screen|
 |```LOOP AlwaysLoop```|Enable automatic loop mode| 
