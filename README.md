@@ -2,6 +2,8 @@
 
 This script is designed to control BrightSign units efficiently using any controller with a serial interface, included [arduino](#Use-with-Arduino).
 
+<p align="center"><img src=/images/BSuControl.jpg></p>
+
 # Supported devices
 
 The following list shows the models that have been tested with this script, but it will surely work on another model in the same series as well. 
@@ -21,6 +23,7 @@ The following list shows the models that have been tested with this script, but 
 |XD233 |GPIO connector AF|TTL|8.4.14|
 |XT243 |GPIO connector AF|TTL|8.4.14|
 |XT1143|Onboard 3.5mm Serial|TTL|8.4.14|
+|HD1025|Onboard 3.5mm Serial|RS-232(Tx and Rx)/TTL(Rx)|9.0.145.1|
   
 **AF:** Alternate Function
 
