@@ -12,17 +12,17 @@ The following list shows the models that have been tested with this script, but 
 |---|---|---|---|
 |AU320 |Onboard DE-09|RS-232|6.1.76|
 |LS422 |USB to Serial Adapter|TTL/RS-232|6.2.147.9|
-|LS423 |USB C Serial Built-in|TTL|8.4.14|
-|LS424 |USB C Serial Built-in|TTL|8.4.14|
-|HD223 |GPIO connector AF|TTL|8.4.14|
-|HD224 |GPIO connector AF|TTL|8.4.14|
-|HD1023|Onboard 3.5mm Serial|TTL|8.4.14|
-|HD1033|Onboard 3.5mm Serial|TTL|8.4.14|
-|HD1024|Onboard 3.5mm Serial|RS-232|8.4.14|
-|HD1034|Onboard 3.5mm Serial|RS-232|8.4.14|
-|XD233 |GPIO connector AF|TTL|8.4.14|
-|XT243 |GPIO connector AF|TTL|8.4.14|
-|XT1143|Onboard 3.5mm Serial|TTL|8.4.14|
+|LS423 |USB C Serial Built-in|TTL|8.5.47|
+|LS424 |USB C Serial Built-in|TTL|8.5.47|
+|HD223 |GPIO connector AF|TTL|8.5.47|
+|HD224 |GPIO connector AF|TTL|8.5.47|
+|HD1023|Onboard 3.5mm Serial|TTL|8.5.47|
+|HD1033|Onboard 3.5mm Serial|TTL|8.5.47|
+|HD1024|Onboard 3.5mm Serial|RS-232|8.5.47|
+|HD1034|Onboard 3.5mm Serial|RS-232|8.5.47|
+|XD233 |GPIO connector AF|TTL|8.5.47|
+|XT243 |GPIO connector AF|TTL|8.5.47|
+|XT1143|Onboard 3.5mm Serial|TTL|8.5.47|
 |HD1025|Onboard 3.5mm Serial|RS-232(Tx and Rx)/TTL(Rx)|9.0.145.1|
   
 **AF:** Alternate Function
