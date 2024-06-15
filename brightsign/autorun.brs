@@ -5,8 +5,8 @@
 
 Sub Main()
     settings = createobject ("roAssociativeArray")
-    settings.serialPortSpeed=115200
-    settings.serialPortMode$="8N1"
+    settings.serialPortSpeed = 115200
+    settings.serialPortMode$ = "8N1"
     settings.videoMode$ = ""        ' ex. "1920x1080x60p", set empty to use automode
     settings.AudioOutput = 4        ' 4 : hdmi & analog
     avc = NewControl(settings)
@@ -42,10 +42,10 @@ Sub ParseCommand(command As String)
         m.command_value = mid(command,bl_position+1)
         m.command = left(command, bl_position-1)
     else 
-        m.command=command
+        m.command = command
         m.command_value = ""
     endif
-command=""
+command = ""
 End Sub
 
 Sub SendStatus(cmd As Integer)
@@ -56,9 +56,9 @@ End Sub
 
 Function NewControl(settings As Object) As Object
 control = CreateObject("roAssociativeArray")
-control.mode=CreateObject("roVideoMode")
-control.msgport=CreateObject("roMessagePort")
-control.video=CreateObject("roVideoPlayer")
+control.mode = CreateObject("roVideoMode")
+control.msgport = CreateObject("roMessagePort")
+control.video = CreateObject("roVideoPlayer")
 
 control.registrySection = CreateObject("roRegistrySection", "usb")
 if control.registrySection.Exists("type_c_serial") = false control.registrySection.Write("type_c_serial","1")
@@ -77,16 +77,16 @@ control.serial.SetMode(settings.serialPortMode$)
 control.serial.SetLineEventPort(control.msgport)
 control.serial.SetInverted(1)
 
-control.settings=settings
+control.settings = settings
 control.video.SetPort(control.msgport)
 control.video.SetAudioOutput(control.settings.audiooutput)
-control.ProcessCommand=ProcessCommand
-control.ParseCommand=ParseCommand
+control.ProcessCommand = ProcessCommand
+control.ParseCommand = ParseCommand
 control.Listen = Listen
-control.SendStatus=SendStatus
-control.command=""
-control.command_value=""
-control.MEDEND=8
+control.SendStatus = SendStatus
+control.command = ""
+control.command_value = ""
+control.MEDEND = 8
 control.mode.SetMode(settings.videoMode$)
 return control
 End Function
