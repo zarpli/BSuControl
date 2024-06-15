@@ -200,6 +200,9 @@ There are some models that are compatible with RS-232 voltages, see the followin
 |LS424|NO|
 |LS423|NO|
 
+The player hardware rev is the third character in the serial number. 
+For example, the serial number "11G738001237" is rev H of that player model.
+
 # USB to Serial Port Adapter
 
 At the moment on **LS422** units, it is only possible to use serial communication using a USB adapter.
